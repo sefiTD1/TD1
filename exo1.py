@@ -11,13 +11,13 @@ Log = False
 if len(sys.argv) > 2:
     Log = True
 
-"""fonction 1"""
 def func():
+    """fonction 1"""
     nom = func("test")
 F = open("log.txt", "w")
 
-"""fonction 2"""
 def logger(F, message):
+    """fonction 2"""
     if Log :
         F.write(message)
     logger(F,"statut: %s" %str(R1.status))
