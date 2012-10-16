@@ -21,3 +21,4 @@ def logger(F, message):
     if Log :
         F.write(message)
     logger(F,"statut: %s" %str(R1.status))
+print "asmaTest"
